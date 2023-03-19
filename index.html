@@ -92,15 +92,29 @@ var a_canvas = document.getElementById("a"); //added code to the id canvas (get 
 </div>
 	
 <div id="content" class="w3-container">
-	<p>Content goes here.</p>
+	<p><canvas id= "a" width="300" height="225" style="border: 1px solid black; "></canvas></p>
+	<!-- / code for canvas with border -->
+	
+	<button onclick = "draw_b()" > Draw Rectangle </button>
+	<!--/ Added button that will trigger drawing function -->
+	
+	<button onclick = "name_b()" > My Name </button>
+	<!--/ Added button to trigger the name function -->
+	
+	<button onclick = "image()" > Add Image </button>
+	<!--/ Added button to trigger the adding image function -->
+
+	<button onclick = "clearRectangle()" > Clear Canvas </button>
+	<!--/ Added button to trigger clear function -->
+
+	<p>Image to use:</p>
+	<img id="art" src=" http://zet.gallery/blog/wp-content/uploads/2016/02/Vicent-Van-Gogh-Starry-Night-Famous-Oil-Paintings-www.shairart.com_.jpg"
+	<!-- /Image that will be loaded onto canvas was added -->
 		
 	<p>The following code has been developed by students and/or researchers of the Freshman Research Initiative DIY Diagnostics Stream at The University of Texas at 		Austin.  This code is shared for demonstration purposes and should not be considered a product -- it is for entertainment purposes only. Any user of this code 			does so at their own risk. Members of the DIY Stream, FRI, and The University of Texas system are not liable for anything related to this code.</p>
  	
 	<p>THIS CODE SHOULD NOT BE USED TO DIAGNOSE ANY KIND OF MEDICAL CONDITION.</p>
 
-<footer class="w3-bottom w3-container w3-flat-carrot">
-	<p>DIY!</p>
-</footer>
-
+<!--/ I had to get rid of the footer because it blocked text and wasn't necessary --> 
 </body>
 </html>
